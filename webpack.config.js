@@ -23,7 +23,7 @@ module.exports = {
     filename: 'app.[contentHash].js'
   },
   module:{
-    rules:[babelRules]
+    rules:[babelRules, cssRules]
   },
   plugins: [
     new HtmlWebPackPlugin({
