@@ -2,11 +2,18 @@
 import React from 'react';
 //import render method
 import { render } from 'react-dom';
+//import Badge
+import { Badge } from './components/Badge';
 //import styles
-import './styles.css'
+import './styles.css';
 
 //root const
 const root = document.getElementById('app');
 
 //render the app
-render(<h1>I'm alive xd</h1>, root);
+render(
+	<>
+		<Badge color='red'>Hey</Badge>
+	</>,
+	root,
+);
