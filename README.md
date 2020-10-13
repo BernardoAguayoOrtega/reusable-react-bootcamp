@@ -8,3 +8,9 @@ React is a Blueprint and react dom use this Blueprint to build, react dom is jus
 
 So react is the thing that describe user interface and react dom is the thing that render that user interface.
 
+
+### Controlled Components and Refs
+- controlled vs uncontrolled components
+- comparing state in functional vs class-based components
+- refs and the useRef hook
+
