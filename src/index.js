@@ -4,6 +4,8 @@ import React from 'react';
 import { render } from 'react-dom';
 //import Badge
 import { Badge } from './components/Badge';
+//import count
+import { Count } from './components/Count';
 //import styles
 import './styles.css';
 
@@ -18,6 +20,7 @@ render(
 		<Badge color='red'>Removed</Badge> This is critical. <br />
 		<Badge color='yellow'>Warning</Badge> This is a warning. <br />
 		<Badge color='blue'>Beta</Badge> This is in progress. <br />
+		<Count />
 	</>,
 	root,
 );
