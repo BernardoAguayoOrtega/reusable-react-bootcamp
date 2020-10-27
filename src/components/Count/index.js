@@ -20,7 +20,7 @@ export const Count = () => {
       <div className="counter">
         <button onClick={subtract}>-</button>
         <input
-            type="text"
+            type="number"
             aria-label="count"
             value={count}
             onChange={(event) => {
